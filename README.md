@@ -1,11 +1,12 @@
-# pandaai-factor-research
-Quantitative Research | Factor Investing | Machine Learning
+This project explores quantitative equity factor investing using:
 
-Topics:
-- Multi-factor investing
-- IC / RankIC analysis
-- Backtesting
-- PandaAI factor research
-- Python quantitative finance
-- CQF learning journey
-- 
+- Size factor
+- Momentum factor
+- Volatility factor
+- IC / RankIC evaluation
+- Barra risk exposure analysis
+- Portfolio backtesting
+- Factor combination optimization
+
+Tools:
+Python, Pandas, NumPy, Matplotlib, PandaAI
