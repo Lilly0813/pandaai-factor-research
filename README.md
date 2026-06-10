@@ -1,75 +1,50 @@
-# PandaAI Multi-Factor Stock Selection Research
+# PandaAI Factor Research
 
 ## Project Overview
 
-This project explores quantitative equity factor investing using the PandaAI research platform and Python. The objective is to construct, evaluate, and optimize stock selection factors and build a multi-factor investment strategy.
+This project demonstrates a quantitative factor research workflow using Python.
 
-## Research Objectives
+## Research Components
 
-* Construct and evaluate common equity factors
-* Measure predictive power using IC and RankIC
-* Analyze factor correlations and risk exposures
-* Combine multiple factors into a composite ranking model
-* Backtest portfolio performance
-* Apply portfolio optimization constraints
+### 1. Factor Construction
+- Momentum Factor
+- Volatility Factor
+- Size Factor
 
-## Factors Studied
+### 2. IC & RankIC Analysis
+- IC = -0.1354
+- RankIC = -0.1226
 
-### Size Factor
+### 3. Factor Correlation Analysis
+- Momentum vs Volatility: -0.18
+- Momentum vs Size: 0.03
+- Volatility vs Size: 0.30
 
-* Market capitalization factor
-* Small-cap premium analysis
+### 4. Multi-Factor Strategy
+Combined:
+- Momentum
+- Volatility
+- Size
 
-### Momentum Factor
+### 5. Backtest Results
 
-* 20-day and 60-day momentum signals
-* Trend persistence evaluation
+Performance:
 
-### Value Factor
-
-* PE ratio factor
-* Relative valuation analysis
-
-### Volatility Factor
-
-* Historical volatility measurement
-* Risk-adjusted stock selection
-
-## Evaluation Methods
-
-* Information Coefficient (IC)
-* Rank Information Coefficient (RankIC)
-* IC Mean
-* IC Standard Deviation
-* IC Information Ratio (ICIR)
-* Factor Correlation Analysis
-* Barra Risk Exposure Analysis
-
-## Portfolio Construction
-
-* Multi-factor scoring model
-* Top-ranked stock selection
-* Industry exposure constraints
-* Portfolio rebalancing
-* Backtesting and performance evaluation
+- Buy & Hold Return: ~55%
+- Multi-Factor Return: ~11%
+- Sharpe Ratio: 0.815
 
 ## Technologies
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Jupyter Notebook
-* PandaAI Quant Platform
-
-## Repository Structure
-
-* `01_factor_construction.ipynb` – Factor construction and IC analysis
-* Additional notebooks will include factor evaluation, portfolio construction, and backtesting research.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- SciPy
+- yFinance
 
 ## Author
 
 Lilly Li
-
-Master of Data Science Candidate
 Harvard Extension School
+Master of Data Science
